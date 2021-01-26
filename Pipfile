@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+
+[packages]
+flask = "*"
+flask-mongoengine = "*"
+flask-restful = "*"
+flask-bcrypt = "*"
+flask-jwt-extended = "*"
+graphene = "*"
+flask-graphql = "*"
+graphene-mongo = "*"
+
+[requires]
+python_version = "3.8"
